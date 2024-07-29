@@ -1,10 +1,27 @@
 .landing-page {
 	.landing-page-menu-top {
-        background-color: #03324e;
-        height: 4rem;
+		background-color: #03324e;
+		height: 5rem;
+		position: fixed;
 		.landing-page-logo {
 			padding-left: 2rem;
+			position: relative;
+			bottom: 3.8rem;
 		}
-		align-items: center;
+		.button-menu-top {
+			padding-top: 1.5rem;
+
+			button {
+				color: #ffff;
+				width: 1rem;
+			}
+		}
+	}
+	.learn-landing {
+		margin-top: 5rem;
+		background-image: url('../../../public/images/Copia_de_Emanuel_Vanegas-_Creactivo.png');
+		background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+		background-repeat: no-repeat; /* Evita que la imagen se repita */
+		height: 100vh;
 	}
 }
